@@ -18,11 +18,12 @@ Notification:Notify({
 	Image = "rbxassetid://10686484299", -- Image on notification (delete this line if no image)
 	Duration = 5, -- How long will notification stay on screen (if there are actions duration will be disabled for that notification)
 	Actions = { -- You can add 2 actions (will ignore if there are more than 2)(changing code to have more will make it look ugly)
-		Close = { -- These names doesn't matter
-			ButtonText = "Close", -- What will it say on button
+		Close = { -- These names doesnt matter
+			ButtonText = "Close",
 			Callback = function()
-				print("Button was pressed!") -- Code to run when this button is pressed
+				print("Button was pressed!") -- Add the code here
 			end,
 		}
 	}
+})
 ```
