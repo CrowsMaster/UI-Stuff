@@ -4,7 +4,7 @@ These modules make some stuff easy.
 
 Get the model from Roblox website [here](https://create.roblox.com/marketplace/asset/11377872227/UI-Modules).
 
-### Custom Notifications
+## Custom Notifications
 - Download the Notification.rbxm file and insert it into your game.
 - Put the module into anywhere you want.
 - Send notifications with this code.
