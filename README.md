@@ -16,8 +16,8 @@ Notification:Notify({
 	Title = "Notification", -- Title of the notification
 	Text = "This is a notification!", -- What will it say on notification
 	Image = "rbxassetid://10686484299", -- Image on notification (delete this line if no image)
-	Duration = 5, -- How long will notification stay on screen (if there are actions duration will be disabled for that notification)
-	Actions = { -- You can add 2 actions (will ignore if there are more than 2)(changing code to have more will make it look ugly)
+	Duration = 5, -- How long will notification stay on screen (if there are actionsi duration will be disabled for that notification)
+	Actions = { -- You can add 2 actions, remove this part to have no actions(will ignore if there are more than 2)(changing code to have more will make it look ugly)
 		Close = { -- These names doesnt matter
 			ButtonText = "Close", -- What will it say on button
 			Callback = function()
