@@ -19,9 +19,9 @@ Notification:Notify({
 	Duration = 5, -- How long will notification stay on screen (if there are actions duration will be disabled for that notification)
 	Actions = { -- You can add 2 actions (will ignore if there are more than 2)(changing code to have more will make it look ugly)
 		Close = { -- These names doesnt matter
-			ButtonText = "Close",
+			ButtonText = "Close", -- What will it say on button
 			Callback = function()
-				print("Button was pressed!") -- Add the code here
+				print("Button was pressed!") -- This code will run when button is pressed
 			end,
 		}
 	}
