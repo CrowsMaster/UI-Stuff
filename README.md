@@ -9,8 +9,8 @@ Get the model from Roblox website [here](https://create.roblox.com/marketplace/a
 - Put the module into anywhere you want.
 - Send notifications with this code.
 ```lua
-local Notification = require(game:GetService("ReplicatedStorage"):WaitForChild("UI_Modules"):WaitForChild("Notification"))
--- This expects that UI_Modules folder to be in ReplicatedStorage
+local Notification = require(game:GetService("ReplicatedStorage"):WaitForChild("Notification"))
+-- This expects Notification module to be in ReplicatedStorage
  
 Notification:Notify({
 	Title = "Notification", -- Title of the notification
@@ -29,3 +29,21 @@ Notification:Notify({
 ```
 
 ## Sliders
+- Download the Slider.rbxm file and insert it into your game.
+- Put the module anywhere you want.
+- Set sliders with this code. (Can't be vertical.)
+```lua
+local SliderModule = require(game:GetService("ReplicatedStorage"):WaitForChild("Slider"))
+-- This expects Slider module to be in ReplicatedStorage
+
+SliderModule.AddSlider({
+	Slider = GuiObject, -- Slider Frame
+	Name = "Example",
+	Range = {8, 200},
+	Increment = 2,
+	CurrentValue = 16, -- This is like the default value of slider.
+	Callback = function(Value) -- Value is the value that the slider is changed to
+		print(Value) -- Value will change ever time slider is used
+	end
+})
+```
