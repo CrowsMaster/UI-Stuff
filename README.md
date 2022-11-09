@@ -27,3 +27,5 @@ Notification:Notify({
 	}
 })
 ```
+
+## Sliders
