@@ -10,6 +10,7 @@ Get the model from Roblox website [here](https://create.roblox.com/marketplace/a
 - Send notifications with this code.
 ```lua
 local Notification = require(game:GetService("ReplicatedStorage"):WaitForChild("UI_Modules"):WaitForChild("Notification"))
+-- This expects that UI_Modules folder to be in ReplicatedStorage
  
 Notification:Notify({
 	Title = "Notification", -- Title of the notification
