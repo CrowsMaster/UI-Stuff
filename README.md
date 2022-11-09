@@ -2,7 +2,7 @@
 This repository includes some UI modules for Roblox.
 These modules make some stuff easy.
 
-Get the model from Roblox website [here](https://create.roblox.com/marketplace/asset/11377872227/UI-Modules)
+Get the model from Roblox website [here](https://create.roblox.com/marketplace/asset/11377872227/UI-Modules).
 
 ### Custom Notifications
 - Download the Notification.rbxm file and insert it into your game.
